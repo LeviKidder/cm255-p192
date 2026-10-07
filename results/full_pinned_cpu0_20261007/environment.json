@@ -1,0 +1,36 @@
+{
+  "started_utc": "20261007T181426Z",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "requested_runs": 5,
+  "rounds": 21,
+  "sizes": [
+    4096,
+    16384,
+    65536,
+    262144,
+    1048576
+  ],
+  "completion_status": "completed",
+  "parallel_feature": false,
+  "notes": "Stock MontConfig/MontBackend and stock ark-poly for all fields",
+  "RUSTFLAGS": "-C target-cpu=native",
+  "rustc": "warn: could not canonicalize path C:\\Users\\Levi\nrustc 1.99.0 (b940084d7 2026-09-28)\nbinary: rustc\ncommit-hash: b940084d7eb6a299eb4bfeb8e34901bc051e7ac4\ncommit-date: 2026-09-28\nhost: x86_64-pc-windows-gnu\nrelease: 1.99.0\nLLVM version: 23.1.1\n",
+  "cargo": "warn: could not canonicalize path C:\\Users\\Levi\ncargo 1.99.0 (5f94df478 2026-08-27)\n",
+  "modes": [
+    "portable",
+    "asm"
+  ],
+  "asm_skipped_reason": null,
+  "affinity_cpu": 0,
+  "original_affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "finished_utc": "2026-10-07T19:24:06.806327+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "preparation_date": "2026-10-07",
+  "benchmark_date": "2026-10-07",
+  "status": "compiled_tested_and_benchmarked_on_one_machine",
+  "completed_result_directory": "results/full_pinned_cpu0_20261007",
+  "platform": "Windows 11 10.0.26200",
+  "cpu": "Intel Core Ultra 7 258V",
+  "rust": "rustc 1.99.0; LLVM 23.1.1; x86_64-pc-windows-gnu",
+  "arkworks": "0.6.0",
+  "backends": [
+    "portable",
+    "asm with x86-64 ADX/BMI2"
+  ],
+  "protocol": {
+    "processes_per_backend": 5,
+    "samples_per_field_workload_process": 21,
+    "sizes": [4096, 16384, 65536, 262144, 1048576],
+    "affinity_cpu": 0,
+    "single_threaded": true
+  },
+  "actual_arkworks_measurements": "completed",
+  "previous_C_measurements_included_as_new_results": false,
+  "verified": [
+    "Proth primality certificate with Python exact arithmetic",
+    "complete cofactor prime certificates",
+    "generator 3 has full multiplicative order",
+    "primitive 2^192-th root of unity",
+    "CM norm identity",
+    "1,131 independent modular-arithmetic fixtures",
+    "Rust arithmetic, FFT, and polynomial-product tests under both backends",
+    "five complete timing processes under each backend",
+    "result analyzer completeness checks and synthetic self-tests"
+  ],
+  "not_established": [
+    "end-to-end proof-system improvement",
+    "elliptic-curve or pairing compatibility",
+    "constant-time or security audit",
+    "performance on other CPUs, operating systems, or compilers",
+    "production readiness"
+  ]
+}

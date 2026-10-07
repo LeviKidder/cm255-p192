@@ -1,0 +1,229 @@
+warn: could not canonicalize path C:\Users\Levi
+cm255-arkworks-bench v0.1.0 (C:\Users\Levi\Desktop\Everything\CodeProjects\PrimeTest\arkworks_cm255_bench)
+â”œâ”€â”€ ark-bls12-381 feature "scalar_field"
+â”‚   â””â”€â”€ ark-bls12-381 v0.6.0
+â”‚       â”œâ”€â”€ ark-ec v0.6.0
+â”‚       â”‚   â”œâ”€â”€ ahash v0.8.12
+â”‚       â”‚   â”‚   â”œâ”€â”€ cfg-if feature "default"
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ cfg-if v1.0.5
+â”‚       â”‚   â”‚   â”œâ”€â”€ once_cell feature "alloc"
+â”‚       â”‚   â”‚   â”‚   â”œâ”€â”€ once_cell v1.21.4
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ once_cell feature "race"
+â”‚       â”‚   â”‚   â”‚       â””â”€â”€ once_cell v1.21.4
+â”‚       â”‚   â”‚   â””â”€â”€ zerocopy feature "simd"
+â”‚       â”‚   â”‚       â””â”€â”€ zerocopy v0.8.61
+â”‚       â”‚   â”‚   [build-dependencies]
+â”‚       â”‚   â”‚   â””â”€â”€ version_check feature "default"
+â”‚       â”‚   â”‚       â””â”€â”€ version_check v0.9.5
+â”‚       â”‚   â”œâ”€â”€ ark-ff v0.6.0
+â”‚       â”‚   â”‚   â”œâ”€â”€ ark-std v0.6.0
+â”‚       â”‚   â”‚   â”‚   â”œâ”€â”€ num-traits v0.2.19
+â”‚       â”‚   â”‚   â”‚   â”‚   [build-dependencies]
+â”‚       â”‚   â”‚   â”‚   â”‚   â””â”€â”€ autocfg feature "default"
+â”‚       â”‚   â”‚   â”‚   â”‚       â””â”€â”€ autocfg v1.5.1
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ rand feature "std_rng"
+â”‚       â”‚   â”‚   â”‚       â”œâ”€â”€ rand v0.8.8
+â”‚       â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€ rand_chacha v0.3.1
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚   â”œâ”€â”€ ppv-lite86 feature "simd"
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚   â”‚   â””â”€â”€ ppv-lite86 v0.2.21
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚   â”‚       â”œâ”€â”€ zerocopy feature "default"
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚   â”‚       â”‚   â””â”€â”€ zerocopy v0.8.61
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚   â”‚       â””â”€â”€ zerocopy feature "simd" (*)
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚   â””â”€â”€ rand_core feature "default"
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚       â””â”€â”€ rand_core v0.6.4
+â”‚       â”‚   â”‚   â”‚       â”‚   â””â”€â”€ rand_core feature "default" (*)
+â”‚       â”‚   â”‚   â”‚       â””â”€â”€ rand feature "rand_chacha"
+â”‚       â”‚   â”‚   â”‚           â””â”€â”€ rand v0.8.8 (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ num-bigint v0.4.8
+â”‚       â”‚   â”‚   â”‚   â”œâ”€â”€ num-integer feature "i128"
+â”‚       â”‚   â”‚   â”‚   â”‚   â””â”€â”€ num-integer v0.1.47
+â”‚       â”‚   â”‚   â”‚   â”‚       â””â”€â”€ num-traits feature "i128"
+â”‚       â”‚   â”‚   â”‚   â”‚           â””â”€â”€ num-traits v0.2.19 (*)
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ num-traits feature "i128" (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ num-traits v0.2.19 (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ zeroize v1.9.1
+â”‚       â”‚   â”‚   â”œâ”€â”€ ark-ff-asm feature "default"
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ ark-ff-asm v0.6.0 (proc-macro)
+â”‚       â”‚   â”‚   â”‚       â”œâ”€â”€ quote feature "default"
+â”‚       â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€ quote v1.0.47
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚   â””â”€â”€ proc-macro2 v1.0.107
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚       â””â”€â”€ unicode-ident feature "default"
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚           â””â”€â”€ unicode-ident v1.0.26
+â”‚       â”‚   â”‚   â”‚       â”‚   â””â”€â”€ quote feature "proc-macro"
+â”‚       â”‚   â”‚   â”‚       â”‚       â”œâ”€â”€ quote v1.0.47 (*)
+â”‚       â”‚   â”‚   â”‚       â”‚       â””â”€â”€ proc-macro2 feature "proc-macro"
+â”‚       â”‚   â”‚   â”‚       â”‚           â””â”€â”€ proc-macro2 v1.0.107 (*)
+â”‚       â”‚   â”‚   â”‚       â”œâ”€â”€ syn feature "default"
+â”‚       â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€ syn v2.0.119
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚   â”œâ”€â”€ proc-macro2 v1.0.107 (*)
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚   â”œâ”€â”€ quote v1.0.47 (*)
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚   â””â”€â”€ unicode-ident feature "default" (*)
+â”‚       â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€ syn feature "clone-impls"
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚   â””â”€â”€ syn v2.0.119 (*)
+â”‚       â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€ syn feature "derive"
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚   â””â”€â”€ syn v2.0.119 (*)
+â”‚       â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€ syn feature "parsing"
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚   â””â”€â”€ syn v2.0.119 (*)
+â”‚       â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€ syn feature "printing"
+â”‚       â”‚   â”‚   â”‚       â”‚   â”‚   â””â”€â”€ syn v2.0.119 (*)
+â”‚       â”‚   â”‚   â”‚       â”‚   â””â”€â”€ syn feature "proc-macro"
+â”‚       â”‚   â”‚   â”‚       â”‚       â”œâ”€â”€ syn v2.0.119 (*)
+â”‚       â”‚   â”‚   â”‚       â”‚       â”œâ”€â”€ quote feature "proc-macro" (*)
+â”‚       â”‚   â”‚   â”‚       â”‚       â””â”€â”€ proc-macro2 feature "proc-macro" (*)
+â”‚       â”‚   â”‚   â”‚       â”œâ”€â”€ syn feature "extra-traits"
+â”‚       â”‚   â”‚   â”‚       â”‚   â””â”€â”€ syn v2.0.119 (*)
+â”‚       â”‚   â”‚   â”‚       â””â”€â”€ syn feature "full"
+â”‚       â”‚   â”‚   â”‚           â””â”€â”€ syn v2.0.119 (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ ark-ff-macros feature "default"
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ ark-ff-macros v0.6.0 (proc-macro)
+â”‚       â”‚   â”‚   â”‚       â”œâ”€â”€ num-bigint v0.4.8 (*)
+â”‚       â”‚   â”‚   â”‚       â”œâ”€â”€ num-traits v0.2.19 (*)
+â”‚       â”‚   â”‚   â”‚       â”œâ”€â”€ quote feature "default" (*)
+â”‚       â”‚   â”‚   â”‚       â”œâ”€â”€ proc-macro2 feature "default"
+â”‚       â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€ proc-macro2 v1.0.107 (*)
+â”‚       â”‚   â”‚   â”‚       â”‚   â””â”€â”€ proc-macro2 feature "proc-macro" (*)
+â”‚       â”‚   â”‚   â”‚       â”œâ”€â”€ syn feature "default" (*)
+â”‚       â”‚   â”‚   â”‚       â”œâ”€â”€ syn feature "extra-traits" (*)
+â”‚       â”‚   â”‚   â”‚       â””â”€â”€ syn feature "full" (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ ark-serialize feature "derive"
+â”‚       â”‚   â”‚   â”‚   â”œâ”€â”€ ark-serialize v0.6.0
+â”‚       â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ ark-std v0.6.0 (*)
+â”‚       â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ digest v0.10.7
+â”‚       â”‚   â”‚   â”‚   â”‚   â”‚   â””â”€â”€ crypto-common feature "default"
+â”‚       â”‚   â”‚   â”‚   â”‚   â”‚       â””â”€â”€ crypto-common v0.1.7
+â”‚       â”‚   â”‚   â”‚   â”‚   â”‚           â”œâ”€â”€ generic-array feature "default"
+â”‚       â”‚   â”‚   â”‚   â”‚   â”‚           â”‚   â””â”€â”€ generic-array v0.14.7
+â”‚       â”‚   â”‚   â”‚   â”‚   â”‚           â”‚       â””â”€â”€ typenum feature "default"
+â”‚       â”‚   â”‚   â”‚   â”‚   â”‚           â”‚           â””â”€â”€ typenum v1.20.1
+â”‚       â”‚   â”‚   â”‚   â”‚   â”‚           â”‚       [build-dependencies]
+â”‚       â”‚   â”‚   â”‚   â”‚   â”‚           â”‚       â””â”€â”€ version_check feature "default" (*)
+â”‚       â”‚   â”‚   â”‚   â”‚   â”‚           â”œâ”€â”€ generic-array feature "more_lengths"
+â”‚       â”‚   â”‚   â”‚   â”‚   â”‚           â”‚   â””â”€â”€ generic-array v0.14.7 (*)
+â”‚       â”‚   â”‚   â”‚   â”‚   â”‚           â””â”€â”€ typenum feature "default" (*)
+â”‚       â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ num-bigint v0.4.8 (*)
+â”‚       â”‚   â”‚   â”‚   â”‚   â””â”€â”€ ark-serialize-derive feature "default"
+â”‚       â”‚   â”‚   â”‚   â”‚       â””â”€â”€ ark-serialize-derive v0.6.0 (proc-macro)
+â”‚       â”‚   â”‚   â”‚   â”‚           â”œâ”€â”€ quote feature "default" (*)
+â”‚       â”‚   â”‚   â”‚   â”‚           â”œâ”€â”€ proc-macro2 feature "default" (*)
+â”‚       â”‚   â”‚   â”‚   â”‚           â””â”€â”€ syn feature "default" (*)
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ ark-serialize feature "ark-serialize-derive"
+â”‚       â”‚   â”‚   â”‚       â””â”€â”€ ark-serialize v0.6.0 (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ digest feature "alloc"
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ digest v0.10.7 (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "Clone"
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ educe v0.6.0 (proc-macro)
+â”‚       â”‚   â”‚   â”‚       â”œâ”€â”€ quote feature "default" (*)
+â”‚       â”‚   â”‚   â”‚       â”œâ”€â”€ proc-macro2 feature "default" (*)
+â”‚       â”‚   â”‚   â”‚       â”œâ”€â”€ syn feature "default" (*)
+â”‚       â”‚   â”‚   â”‚       â””â”€â”€ enum-ordinalize feature "derive"
+â”‚       â”‚   â”‚   â”‚           â””â”€â”€ enum-ordinalize v4.4.2
+â”‚       â”‚   â”‚   â”‚               â””â”€â”€ enum-ordinalize-derive v4.4.2 (proc-macro)
+â”‚       â”‚   â”‚   â”‚                   â”œâ”€â”€ quote feature "default" (*)
+â”‚       â”‚   â”‚   â”‚                   â”œâ”€â”€ proc-macro2 feature "default" (*)
+â”‚       â”‚   â”‚   â”‚                   â””â”€â”€ syn feature "default"
+â”‚       â”‚   â”‚   â”‚                       â”œâ”€â”€ syn v3.0.6
+â”‚       â”‚   â”‚   â”‚                       â”‚   â”œâ”€â”€ proc-macro2 v1.0.107 (*)
+â”‚       â”‚   â”‚   â”‚                       â”‚   â”œâ”€â”€ quote v1.0.47 (*)
+â”‚       â”‚   â”‚   â”‚                       â”‚   â””â”€â”€ unicode-ident feature "default" (*)
+â”‚       â”‚   â”‚   â”‚                       â”œâ”€â”€ syn feature "clone-impls"
+â”‚       â”‚   â”‚   â”‚                       â”‚   â””â”€â”€ syn v3.0.6 (*)
+â”‚       â”‚   â”‚   â”‚                       â”œâ”€â”€ syn feature "derive"
+â”‚       â”‚   â”‚   â”‚                       â”‚   â””â”€â”€ syn v3.0.6 (*)
+â”‚       â”‚   â”‚   â”‚                       â”œâ”€â”€ syn feature "parsing"
+â”‚       â”‚   â”‚   â”‚                       â”‚   â””â”€â”€ syn v3.0.6 (*)
+â”‚       â”‚   â”‚   â”‚                       â”œâ”€â”€ syn feature "printing"
+â”‚       â”‚   â”‚   â”‚                       â”‚   â””â”€â”€ syn v3.0.6 (*)
+â”‚       â”‚   â”‚   â”‚                       â””â”€â”€ syn feature "proc-macro"
+â”‚       â”‚   â”‚   â”‚                           â”œâ”€â”€ syn v3.0.6 (*)
+â”‚       â”‚   â”‚   â”‚                           â”œâ”€â”€ quote feature "proc-macro" (*)
+â”‚       â”‚   â”‚   â”‚                           â””â”€â”€ proc-macro2 feature "proc-macro" (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "Copy"
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ educe v0.6.0 (proc-macro) (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "Debug"
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ educe v0.6.0 (proc-macro) (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "Default"
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ educe v0.6.0 (proc-macro) (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "Eq"
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ educe v0.6.0 (proc-macro) (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "Hash"
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ educe v0.6.0 (proc-macro) (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "Ord"
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ educe v0.6.0 (proc-macro) (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "PartialEq"
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ educe v0.6.0 (proc-macro) (*)
+â”‚       â”‚   â”‚   â””â”€â”€ educe feature "PartialOrd"
+â”‚       â”‚   â”‚       â””â”€â”€ educe v0.6.0 (proc-macro) (*)
+â”‚       â”‚   â”œâ”€â”€ ark-poly v0.6.0
+â”‚       â”‚   â”‚   â”œâ”€â”€ ahash v0.8.12 (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ ark-ff v0.6.0 (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ ark-std v0.6.0 (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ ark-serialize feature "derive" (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "Clone" (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "Copy" (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "Debug" (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "Default" (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "Eq" (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "Hash" (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "Ord" (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "PartialEq" (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ educe feature "PartialOrd" (*)
+â”‚       â”‚   â”‚   â”œâ”€â”€ hashbrown feature "allocator-api2"
+â”‚       â”‚   â”‚   â”‚   â””â”€â”€ hashbrown v0.17.1
+â”‚       â”‚   â”‚   â”‚       â””â”€â”€ allocator-api2 feature "alloc"
+â”‚       â”‚   â”‚   â”‚           â””â”€â”€ allocator-api2 v0.2.21
+â”‚       â”‚   â”‚   â””â”€â”€ hashbrown feature "inline-more"
+â”‚       â”‚   â”‚       â””â”€â”€ hashbrown v0.17.1 (*)
+â”‚       â”‚   â”œâ”€â”€ ark-serialize v0.6.0 (*)
+â”‚       â”‚   â”œâ”€â”€ ark-std v0.6.0 (*)
+â”‚       â”‚   â”œâ”€â”€ itertools v0.14.0
+â”‚       â”‚   â”‚   â””â”€â”€ either v1.19.0
+â”‚       â”‚   â”œâ”€â”€ num-bigint v0.4.8 (*)
+â”‚       â”‚   â”œâ”€â”€ num-integer v0.1.47 (*)
+â”‚       â”‚   â”œâ”€â”€ num-traits v0.2.19 (*)
+â”‚       â”‚   â”œâ”€â”€ zeroize v1.9.1
+â”‚       â”‚   â”œâ”€â”€ educe feature "Clone" (*)
+â”‚       â”‚   â”œâ”€â”€ educe feature "Copy" (*)
+â”‚       â”‚   â”œâ”€â”€ educe feature "Debug" (*)
+â”‚       â”‚   â”œâ”€â”€ educe feature "Default" (*)
+â”‚       â”‚   â”œâ”€â”€ educe feature "Eq" (*)
+â”‚       â”‚   â”œâ”€â”€ educe feature "Hash" (*)
+â”‚       â”‚   â”œâ”€â”€ educe feature "Ord" (*)
+â”‚       â”‚   â”œâ”€â”€ educe feature "PartialEq" (*)
+â”‚       â”‚   â”œâ”€â”€ educe feature "PartialOrd" (*)
+â”‚       â”‚   â”œâ”€â”€ hashbrown feature "allocator-api2" (*)
+â”‚       â”‚   â””â”€â”€ hashbrown feature "inline-more" (*)
+â”‚       â”œâ”€â”€ ark-ff v0.6.0 (*)
+â”‚       â”œâ”€â”€ ark-serialize v0.6.0 (*)
+â”‚       â””â”€â”€ ark-std v0.6.0 (*)
+â”œâ”€â”€ ark-bls12-381 feature "std"
+â”‚   â”œâ”€â”€ ark-bls12-381 v0.6.0 (*)
+â”‚   â”œâ”€â”€ ark-ec feature "std"
+â”‚   â”‚   â”œâ”€â”€ ark-ec v0.6.0 (*)
+â”‚   â”‚   â”œâ”€â”€ ark-ff feature "std"
+â”‚   â”‚   â”‚   â”œâ”€â”€ ark-ff v0.6.0 (*)
+â”‚   â”‚   â”‚   â”œâ”€â”€ ark-serialize feature "std"
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ ark-serialize v0.6.0 (*)
+â”‚   â”‚   â”‚   â”‚   â””â”€â”€ ark-std feature "std"
+â”‚   â”‚   â”‚   â”‚       â””â”€â”€ ark-std v0.6.0 (*)
+â”‚   â”‚   â”‚   â””â”€â”€ ark-std feature "std" (*)
+â”‚   â”‚   â”œâ”€â”€ ark-serialize feature "std" (*)
+â”‚   â”‚   â””â”€â”€ ark-std feature "std" (*)
+â”‚   â”œâ”€â”€ ark-ff feature "std" (*)
+â”‚   â””â”€â”€ ark-std feature "std" (*)
+â”œâ”€â”€ ark-ff feature "std" (*)
+â”œâ”€â”€ ark-std feature "std" (*)
+â”œâ”€â”€ ark-poly feature "std"
+â”‚   â”œâ”€â”€ ark-poly v0.6.0 (*)
+â”‚   â”œâ”€â”€ ark-ff feature "std" (*)
+â”‚   â”œâ”€â”€ ark-serialize feature "std" (*)
+â”‚   â””â”€â”€ ark-std feature "std" (*)
+â”œâ”€â”€ ark-bn254 feature "scalar_field"
+â”‚   â””â”€â”€ ark-bn254 v0.6.0
+â”‚       â”œâ”€â”€ ark-ec v0.6.0 (*)
+â”‚       â”œâ”€â”€ ark-ff v0.6.0 (*)
+â”‚       â””â”€â”€ ark-std v0.6.0 (*)
+â””â”€â”€ ark-bn254 feature "std"
+    â”œâ”€â”€ ark-bn254 v0.6.0 (*)
+    â”œâ”€â”€ ark-ec feature "std" (*)
+    â”œâ”€â”€ ark-ff feature "std" (*)
+    â””â”€â”€ ark-std feature "std" (*)

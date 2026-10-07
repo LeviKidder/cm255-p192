@@ -1,0 +1,6 @@
+/target/
+/results/*
+!/results/full_pinned_cpu0_20261007/
+!/results/full_pinned_cpu0_20261007/**
+__pycache__/
+# Do NOT ignore Cargo.lock: retain the resolver output for reproducibility.

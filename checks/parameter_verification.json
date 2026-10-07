@@ -1,0 +1,21 @@
+{
+  "modulus": "29174178740360681578648524088242709404630849926127992935865410422826357227521",
+  "cofactor": 4647714816520095745,
+  "cofactor_factorization": {
+    "5": 1,
+    "19": 1,
+    "48923313858106271": 1
+  },
+  "bits": 255,
+  "two_adicity": 192,
+  "proth_base": 3,
+  "proth_check": true,
+  "generator": 3,
+  "generator_full_order_proved": true,
+  "root_2_192": "2773124730206234754582414283189733330876378921046760846609474865940364058105",
+  "cm_x": "102185291209127780448137731705682407317",
+  "cm_y": "96778987907671452183687963870034497754",
+  "checks_performed": "Python integer arithmetic only",
+  "rust_harness_compiled_by_this_script": false,
+  "arkworks_benchmark_executed_by_this_script": false
+}

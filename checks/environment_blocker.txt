@@ -1,0 +1,7 @@
+Preparation environment: Linux x86-64, AMD EPYC 9V74 virtual CPU.
+rustc and cargo were not installed or on PATH; filesystem search found neither.
+No cached arkworks crates were located.
+curl to static.rust-lang.org failed with: Could not resolve host.
+The separate download facility also failed.
+Result: Rust build/test/benchmark execution was not possible in this session.
+No arkworks timing samples exist.

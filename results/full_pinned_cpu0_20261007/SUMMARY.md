@@ -1,0 +1,113 @@
+# arkworks benchmark results
+
+Actual observations from this directory, not predictions. 
+Each timing is the median of independent-process medians. 
+A positive reduction means CM255 took less time; a negative reduction means it lost.
+
+| Backend | Workload | Size | Baseline | CM255 time reduction | Process speed-ratio range |
+|---|---|---:|---|---:|---:|
+| asm | fft | 4096 | BLS12-381-Fr | +4.29% | 1.032–1.075 |
+| asm | fft | 4096 | BN254-Fr | -1.57% | 0.935–1.013 |
+| asm | fft | 16384 | BLS12-381-Fr | +6.22% | 0.875–1.218 |
+| asm | fft | 16384 | BN254-Fr | -1.60% | 0.883–1.256 |
+| asm | fft | 65536 | BLS12-381-Fr | +4.40% | 0.994–1.076 |
+| asm | fft | 65536 | BN254-Fr | -1.85% | 0.946–0.999 |
+| asm | fft | 262144 | BLS12-381-Fr | +1.91% | 1.005–1.056 |
+| asm | fft | 262144 | BN254-Fr | -1.39% | 0.975–1.018 |
+| asm | fft | 1048576 | BLS12-381-Fr | +3.25% | 1.012–1.248 |
+| asm | fft | 1048576 | BN254-Fr | -1.66% | 0.952–1.060 |
+| asm | ifft | 4096 | BLS12-381-Fr | -18.55% | 0.760–1.192 |
+| asm | ifft | 4096 | BN254-Fr | -23.81% | 0.794–0.828 |
+| asm | ifft | 16384 | BLS12-381-Fr | -23.87% | 0.782–1.000 |
+| asm | ifft | 16384 | BN254-Fr | -19.88% | 0.824–1.042 |
+| asm | ifft | 65536 | BLS12-381-Fr | -18.14% | 0.805–0.976 |
+| asm | ifft | 65536 | BN254-Fr | -19.99% | 0.757–0.897 |
+| asm | ifft | 262144 | BLS12-381-Fr | -17.08% | 0.813–0.956 |
+| asm | ifft | 262144 | BN254-Fr | -13.83% | 0.814–0.950 |
+| asm | ifft | 1048576 | BLS12-381-Fr | -16.12% | 0.839–0.912 |
+| asm | ifft | 1048576 | BN254-Fr | -16.97% | 0.841–0.968 |
+| asm | mul | 64 | BLS12-381-Fr | +14.24% | 1.066–1.228 |
+| asm | mul | 64 | BN254-Fr | +7.06% | 0.996–1.120 |
+| asm | poly_product | 4096 | BLS12-381-Fr | -5.21% | 0.747–0.971 |
+| asm | poly_product | 4096 | BN254-Fr | -8.49% | 0.732–0.989 |
+| asm | poly_product | 16384 | BLS12-381-Fr | -6.57% | 0.866–0.994 |
+| asm | poly_product | 16384 | BN254-Fr | -7.85% | 0.879–0.967 |
+| asm | poly_product | 65536 | BLS12-381-Fr | -5.73% | 0.904–0.990 |
+| asm | poly_product | 65536 | BN254-Fr | -9.23% | 0.873–0.955 |
+| asm | poly_product | 262144 | BLS12-381-Fr | -3.20% | 0.910–0.987 |
+| asm | poly_product | 262144 | BN254-Fr | -7.09% | 0.834–0.955 |
+| asm | poly_product | 1048576 | BLS12-381-Fr | -4.97% | 0.841–1.003 |
+| asm | poly_product | 1048576 | BN254-Fr | -8.73% | 0.835–1.018 |
+| portable | fft | 4096 | BLS12-381-Fr | +23.71% | 1.286–1.686 |
+| portable | fft | 4096 | BN254-Fr | +19.77% | 1.231–1.327 |
+| portable | fft | 16384 | BLS12-381-Fr | +29.01% | 1.209–1.522 |
+| portable | fft | 16384 | BN254-Fr | +25.07% | 1.216–1.396 |
+| portable | fft | 65536 | BLS12-381-Fr | +27.47% | 1.152–1.441 |
+| portable | fft | 65536 | BN254-Fr | +21.95% | 1.219–1.365 |
+| portable | fft | 262144 | BLS12-381-Fr | +24.91% | 1.217–1.350 |
+| portable | fft | 262144 | BN254-Fr | +21.10% | 1.217–1.287 |
+| portable | fft | 1048576 | BLS12-381-Fr | +24.33% | 1.311–1.350 |
+| portable | fft | 1048576 | BN254-Fr | +22.07% | 1.245–1.386 |
+| portable | ifft | 4096 | BLS12-381-Fr | +17.36% | 0.824–1.222 |
+| portable | ifft | 4096 | BN254-Fr | +16.51% | 1.072–1.267 |
+| portable | ifft | 16384 | BLS12-381-Fr | +13.99% | 1.065–1.243 |
+| portable | ifft | 16384 | BN254-Fr | +16.05% | 1.007–1.199 |
+| portable | ifft | 65536 | BLS12-381-Fr | +18.01% | 1.141–1.563 |
+| portable | ifft | 65536 | BN254-Fr | +15.37% | 1.147–1.264 |
+| portable | ifft | 262144 | BLS12-381-Fr | +17.90% | 1.138–1.321 |
+| portable | ifft | 262144 | BN254-Fr | +16.37% | 1.127–1.221 |
+| portable | ifft | 1048576 | BLS12-381-Fr | +16.51% | 1.153–1.348 |
+| portable | ifft | 1048576 | BN254-Fr | +12.24% | 1.105–1.180 |
+| portable | mul | 64 | BLS12-381-Fr | +36.91% | 1.466–1.758 |
+| portable | mul | 64 | BN254-Fr | +31.27% | 1.404–1.751 |
+| portable | poly_product | 4096 | BLS12-381-Fr | +22.80% | 1.147–1.386 |
+| portable | poly_product | 4096 | BN254-Fr | +19.47% | 1.134–1.564 |
+| portable | poly_product | 16384 | BLS12-381-Fr | +20.88% | 1.179–1.320 |
+| portable | poly_product | 16384 | BN254-Fr | +18.91% | 1.177–1.295 |
+| portable | poly_product | 65536 | BLS12-381-Fr | +23.85% | 1.235–1.360 |
+| portable | poly_product | 65536 | BN254-Fr | +18.33% | 1.157–1.265 |
+| portable | poly_product | 262144 | BLS12-381-Fr | +23.16% | 1.208–1.420 |
+| portable | poly_product | 262144 | BN254-Fr | +19.45% | 1.095–1.284 |
+| portable | poly_product | 1048576 | BLS12-381-Fr | +20.90% | 1.231–1.349 |
+| portable | poly_product | 1048576 | BN254-Fr | +17.32% | 1.121–1.234 |
+
+## Fastest backend selected per field
+
+The backend is selected once per field/workload from its five process medians; ratios remain paired by process.
+
+| Workload | Size | Baseline | CM255 backend | Baseline backend | CM255 time reduction | Process speed-ratio range |
+|---|---:|---|---|---|---:|---:|
+| fft | 4096 | BLS12-381-Fr | portable | asm | +21.43% | 0.991–1.622 |
+| fft | 4096 | BN254-Fr | portable | asm | +14.80% | 0.945–1.425 |
+| fft | 16384 | BLS12-381-Fr | portable | asm | +15.04% | 0.875–2.358 |
+| fft | 16384 | BN254-Fr | portable | asm | +26.35% | 0.900–1.709 |
+| fft | 65536 | BLS12-381-Fr | portable | asm | +24.71% | 0.675–1.965 |
+| fft | 65536 | BN254-Fr | portable | asm | +18.03% | 0.644–1.969 |
+| fft | 262144 | BLS12-381-Fr | portable | portable | +24.91% | 1.217–1.350 |
+| fft | 262144 | BN254-Fr | portable | portable | +21.10% | 1.217–1.287 |
+| fft | 1048576 | BLS12-381-Fr | portable | asm | +19.75% | 1.129–1.408 |
+| fft | 1048576 | BN254-Fr | portable | asm | +16.98% | 0.959–1.315 |
+| ifft | 4096 | BLS12-381-Fr | portable | asm | -12.83% | 0.653–1.266 |
+| ifft | 4096 | BN254-Fr | portable | asm | -16.68% | 0.442–1.212 |
+| ifft | 16384 | BLS12-381-Fr | portable | asm | +2.10% | 0.750–1.388 |
+| ifft | 16384 | BN254-Fr | portable | asm | +8.04% | 0.754–1.416 |
+| ifft | 65536 | BLS12-381-Fr | portable | portable | +18.01% | 1.141–1.563 |
+| ifft | 65536 | BN254-Fr | portable | portable | +15.37% | 1.147–1.264 |
+| ifft | 262144 | BLS12-381-Fr | portable | portable | +17.90% | 1.138–1.321 |
+| ifft | 262144 | BN254-Fr | portable | portable | +16.37% | 1.127–1.221 |
+| ifft | 1048576 | BLS12-381-Fr | portable | asm | +14.01% | 1.090–1.304 |
+| ifft | 1048576 | BN254-Fr | portable | asm | +10.08% | 1.089–1.436 |
+| mul | 64 | BLS12-381-Fr | portable | portable | +36.91% | 1.466–1.758 |
+| mul | 64 | BN254-Fr | portable | asm | +15.40% | 1.046–1.563 |
+| poly_product | 4096 | BLS12-381-Fr | portable | asm | +24.72% | 0.925–1.652 |
+| poly_product | 4096 | BN254-Fr | portable | asm | +28.54% | 0.844–1.682 |
+| poly_product | 16384 | BLS12-381-Fr | portable | asm | -0.96% | 0.777–2.148 |
+| poly_product | 16384 | BN254-Fr | portable | asm | -6.36% | 0.786–2.242 |
+| poly_product | 65536 | BLS12-381-Fr | portable | asm | +18.67% | 0.867–1.396 |
+| poly_product | 65536 | BN254-Fr | portable | asm | +16.86% | 0.836–1.348 |
+| poly_product | 262144 | BLS12-381-Fr | portable | asm | +12.71% | 0.921–1.374 |
+| poly_product | 262144 | BN254-Fr | portable | portable | +19.45% | 1.095–1.284 |
+| poly_product | 1048576 | BLS12-381-Fr | portable | portable | +20.90% | 1.231–1.349 |
+| poly_product | 1048576 | BN254-Fr | portable | portable | +17.32% | 1.121–1.234 |
+
+This is a field/FFT benchmark, not an end-to-end prover, elliptic-curve, security, or constant-time audit. No production readiness is implied.
